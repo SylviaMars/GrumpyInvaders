@@ -1,0 +1,40 @@
+
+****************
+*Space Invaders*
+****************
+
+==========================================
+Important en cas d'utilitzar Google Chrome!
+
+A fi de poder executar el so del joc hem d'anar a chrome://flags/#autoplay-policy i canviar 'autoplay policy' a 'no user gesture is required'
+
+==========================================
+
+1. Introducció:
+
+La temàtica del joc d'Space Invaders l'he canviada per una altra en la que el jugador ha d'alimentar a un array de moixos en 30 segons. En cas de aconseguir-ho a temps guanya; i en cas de que s'acabi el temps o que 
+ses pilotes de llana que llancen es moixos el fereixin perd.
+
+
+2. Implementació:
+
+He afegit una página d'inici en la que pots introduir el teu nom.
+La meva idea era guardar aquest nom de jugador en una cookie per guardar els millors temps o victòries superades.
+
+Una vegada s'introdueix el nom surt un botó que inicia el joc. 
+Una vegada carregada la pàgina del joc comença a contar el temps a través de la funció 'crono'.
+
+Tant si s'acaba el temps com si el jugador está ferit el joc s'atura i surt un botó per reiniciar el joc.
+
+
+3. Funcions adicionals:
+
+-pàgina d'inici
+-funció cronòmetre
+-funció so: si s'activat l'opció al navegador s'executa un mp3. També he afegit un efecte de so diferent en cas de perdre o guanyar.
+
+
+4. Funcions no implementades:
+
+Sa meva intenció era afegir ses cookies per guardar un registre de puntuacions fins que el jugador sortís del navegador; pero no ho pogut dur a terme per falta de temps.
+També vaig estar provant una funció switch per donar la opció de canviar la imatge de la nau principal però no está acabada.

@@ -1,0 +1,62 @@
+body{
+	font-family: 'Pacifico', cursive;
+	color: #4e1f5c;
+	text-shadow: 1px 2px 15px white;
+	text-align: center;
+	font-size: larger;
+	background-color: #ffffff;
+	background-image: url("img/galaxy2.jpg"); 
+	height: 550px;	
+}
+#bottom{display: grid; grid-template-columns: 1fr 1fr 1fr;}
+#newGame{ display: none; margin: 0 auto; height: 30px;}
+
+#crono{margin: 0;}
+.container{height: 550px;}
+img{
+	height: 330px;
+	z-index: -10;
+	margin-top: -160px;
+	position: relative;
+}
+p{
+	font-family: 'Pacifico', cursive;
+	color: #4e1f5c;
+	text-shadow: 1px 2px 15px #ffffff;}
+
+canvas{
+	background-image: url("img/galaxy2.jpg"); 
+	background-color: transparent;
+	margin-top: -50px;
+	margin-left: -50px;
+	margin-right: -50px;
+	
+}
+input{font-family: 'Pacifico', cursive; color: #4e1f5c;}
+button{font-family: 'Pacifico', cursive; color: #4e1f5c;}
+
+#time{display: none;}
+#restart{display: none;}
+#crono{font-size: 14px;}
+#restart, #crono, #time{	
+	margin: 0 auto;
+	position: relative;
+	background: #8f39a4;
+	background-image: -webkit-linear-gradient(top, #ffffff, #8f39a4);
+	background-image: -moz-linear-gradient(top, #ffffff, #8f39a4);
+	background-image: -ms-linear-gradient(top, #ffffff, #8f39a4);
+	background-image: -o-linear-gradient(top, #ffffff, #8f39a4);
+	background-image: linear-gradient(to bottom, #ffffff, #8f39a4);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: 'Pacifico', cursive;
+	color: #4e1f5c;
+    width: 135px;
+	text-decoration: none;
+	border: none;
+	height: 30px;
+  }
+
+a{text-decoration: none;}  
+
